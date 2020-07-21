@@ -1,0 +1,152 @@
+body{
+
+
+	background-color: #bfbfbf;
+}
+
+
+h1{
+	color:#000000;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+
+}
+section{
+	box-sizing:border-box;
+	background-color:#999999;
+	font-family: Verdana, Geneva, sans-serif;
+	border: 4px solid black;
+	margin:1.5%; 
+}
+
+
+
+h2.chicken{
+	background-color:#ff944d;
+	color: #003300;
+
+}
+
+
+h2.beef{
+	background-color:#b32400;
+	color: #ffffff;
+
+}
+
+
+h2.sushi{
+
+	background-color:#cccc00;
+	color: #003300;
+
+}
+
+
+
+
+/*
+desktop view
+*/
+
+
+@media  (min-width: 992px){
+	section{
+
+		width: 30%;
+		float: left;
+
+	}
+}
+
+
+
+
+/*
+tablet view 
+*/
+
+@media  (min-width: 768px)and (max-width: 991px){
+
+	section.chicken,section.beef{
+
+		width: 45%;
+		float: left;
+
+	}
+	section.sushi{
+
+
+
+
+		width:90%;
+		float:left;
+		margin-left:2%; 
+	}
+
+
+
+
+
+}
+
+/*
+
+smartphone view
+*/
+
+
+@media screen and  (max-width:767px){
+
+
+	section{
+
+		width: 100%;
+		float: none;
+
+		}
+}
+
+
+
+
+
+h2.heading{
+	border: 4px solid black;
+	margin-left:66%;
+	margin-top: 0;
+	margin-right: 0;
+	width:33%;
+	/*
+	background-color:#e62e00;
+	color: #e60000;
+	*/
+	position: relative;
+	
+	
+	
+	text-align: right;
+
+}
+//using relative positioning 
+
+
+
+
+	
+/*
+
+h2.heading{
+
+	float:right;
+	clear:all;
+
+
+
+}
+
+*/
+
+
+
+/*the above section is common for all media queires*/
